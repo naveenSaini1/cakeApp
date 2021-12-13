@@ -1,0 +1,101 @@
+/* all css for mobile  */
+/* nav bar screen media  */
+@media screen and (max-width:870px) {
+    .menu .logo h1{
+        font-size: 1.1rem;
+    }
+    .menu .logo h1 span:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .menu .logo h1 span:nth-child(2){
+        font-size: 1.9rem;
+    }
+    .menu .menus ul li{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+    .menu .menus ul li a{
+        padding: 2px 1px;
+    }
+    .menu .add-cart p{
+        font-size: 0.8rem;
+    }
+    .most-purchased-service{
+        display: block;
+    }
+    .menu .add-cart {
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .menu .menus ul li{
+        display: block;
+
+    }
+    .menu .menus {
+        margin-right: auto;
+    }
+    .menu .logo {
+        margin-bottom: auto;
+    }
+    .menu .add-cart{
+        margin-bottom: auto;
+    }
+    .menu .menus ul li {
+        margin-bottom: 1.2rem;
+        font-size: 1.6rem;
+    }
+    .menu .menus ul{
+        /* display: none; */
+        transition: all 0.7s ease-in-out;
+        overflow:hidden;
+        max-height: 0px;
+        text-align: center;
+    }
+    .menu .hemburger{
+        display: block;
+        position:absolute;
+        /* margin-bottom: auto; */
+        width: 100%;
+        text-align: center;
+        transition: all 1.4s ease-in-out;
+        top: 0px;
+        left: 0%;
+    }
+    .menu .menus ul li:nth-child(1){
+        margin-top: 3rem;
+    }
+    .menu .menus ul li a{
+        padding: 4px 14px;
+    }
+    .most-purchased-service{
+        flex-direction: column;
+    }
+}
+
+/* for footer  */
+@media screen and (max-width:650px){
+    .about-main-Detail-container {
+        display: block;
+    }
+    .about-second-container{
+        width: 100%;
+    }
+}
+
+/* for sliders */
+@media screen and (max-width:533px){
+    .slider{
+        width: 40% !important;
+    }
+    .image-slider > .slider{
+        min-width: 10rem;
+    }
+        .image-slider >.slider img {
+        min-width: 0%;
+    }
+    .about-second-container textarea{
+        width:74%;
+    }
+}
